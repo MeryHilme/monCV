@@ -24,12 +24,12 @@ text-align:center;
 }
 
 img{
-border:1px solid;
+border:3px solid;
 border-right:1px;
-border-color:#6E6A12;
-color:white;
+border-color:black;
+color:black;
 float:right;
-box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+box-shadow: 8px 8px 5px black;
 }
 
 dl dt dd{
