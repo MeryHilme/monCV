@@ -12,10 +12,12 @@ html{ font-size: 1em;
     }
 
 body{
-background:#A59997;
+background:#B9D0DC;
 /* Ajout du font choisi poour le <body> */
 font-family: actor, sans-serif; /*Pour le font Actor */
+
 }
+
 
 #wrapper{
 min-width:320px;
@@ -32,10 +34,29 @@ float:right;
 box-shadow: 8px 8px 5px black;
 }
 
-dl dt dd{
+ol ul{
 /* Ajout du font pour les balises imbriquées dans <section> */
 font-family: adamina, serif;
+color:#62524E;
 }
+
+#moncv{
+color:white;
+border: 3px solid;
+text-align: justify;
+border-color:#62524E;
+margin-top: 30x;
+margin-bottom:20px;
+margin-left:20px;
+margin-right:20px;
+/* Propriété du padding */  
+padding-left:10px;
+padding-right:10px;
+padding-top:10px;
+padding-bottom:10px;
+
+}
+
 
 
 
