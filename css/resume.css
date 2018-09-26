@@ -22,6 +22,7 @@ font-family: actor, sans-serif; /*Pour le font Actor */
 min-width:320px;
 max-width:900px;
 text-align:center;
+margin:auto;
 }
 
 img{
@@ -54,6 +55,23 @@ padding-left:10px;
 padding-right:10px;
 padding-top:10px;
 padding-bottom:10px;
+}
+
+
+#ExpP{
+background-color:#6E96D5;
+}
+
+#Formation{
+background-color:#D4DCE8;
+}
+
+#Langues{
+background-color: #6E96D5;
+}
+
+#loisirs{
+background-color: #D4DCE8;
 }
 
 header h1{
@@ -95,5 +113,17 @@ text-align:justify;
 
 footer{
 background-color:#A8ADB4;
+text-align:center;
+border: 3px solid;
+
+margin-top: 30px;
+margin-bottom:20px;
+margin-left:20px;
+margin-right:20px;
+
+padding-left:20px;
+padding-right:20px;
+padding-top:5px;
+padding-bottom:5px;
 }
 
