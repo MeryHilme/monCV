@@ -15,6 +15,7 @@
 <!-- Scripts javascript -->
 <script type="text/javascript" src="js/descr1.js"></script>
 <script type="text/javascript" src="js/descr2.js"></script>
+<script type="text/javascript" src="js/tooltip.js"></script>
 
 
 
@@ -96,29 +97,22 @@ sur mes compétences et ma réactivité.
  <li>HTML5</li>
 <li>CSS3</li>
 <li>JavaScript</li>
-
 </ul>
 
+</ul>
 
 <ul style="list-style-type:square">
 <h3><b>>>Big Data</b></h3>
 
-<script>
-
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();
-}
-);
-
-</script>
-
 <li>
+<!-- le tooltip ici a été appliquer juste sur Hadoop, hive et spark -->
 
-<a href="#" data-toggle="tooltip" title="Hadoop est un framework open source qui repose sur Java Hadoop prend en charge le traitement des donnes volumineuses Big Data au sein denvironnements ...">Hadoop.</a></li>
+<input type="text" placeholder="Hadoop" data-toggle="tooltip" title="Hadoop est un framework open source qui repose sur Java Hadoop prend en charge le traitement des donnes volumineuses Big Data au sein denvironnements ...">
+</input></li>
 <li>
-<a href="#" data-toggle="tooltip" title="Apache Hive est un entrepôt données (Data Warehouse) open source pour Hadoop. C'est une abstraction sur Apache ...">Hive.</a></li>
+<a href="https://hive.apache.org/" data-toggle="tooltip" title="Apache Hive est un entrepôt données (Data Warehouse) open source pour Hadoop. C'est une abstraction sur Apache ...">Hive.</a></li>
 
-<li>Spark.</li>
+<li onmouseouver="tooltip.show(this)" onmouseout="tooltip.hide(this)" title="Apache Spark est une infrastructure de traitement parallèle open source qui permet d'exécuter des applications analytiques d’envergure, en utilisant des machines en clusters.">Spark.</li>
 <li>Business Intelligence.</li>
 <li>Autres technologies...</li>
   </ul>
@@ -126,6 +120,8 @@ $(document).ready(function(){
 <br/>
 <hr></hr>
 </div>
+
+
 
 <div>
 
