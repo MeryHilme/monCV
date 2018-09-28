@@ -1,6 +1,6 @@
 @media only screen and (max-width:740px){
 #wrapper{
-         background:#7f7;
+         background:#f77;
          }
 
                                         }
@@ -9,8 +9,32 @@
 #wrapper{
          background:#7f7;
          }
+}
+
 
 @media only screen and (max-width:480px){
+
+
 #wrapper{
-         background:#7f7;
+         background:#77f;
+         margin-left: auto;
+         margin-right: auto;
+         display: initial;
+        
+}
+         
          }
+
+
+#wrapper{
+float: center;
+display: initial;
+columns:1;
+}
+
+h1{
+text-align: center;
+}
+
+
+

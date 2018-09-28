@@ -12,27 +12,100 @@ html{ font-size: 1em;
     }
 
 body{
-background:#B9D0DC;
+background-color: none;
 /* Ajout du font choisi poour le <body> */
 font-family: actor, sans-serif; /*Pour le font Actor */
+text-align: center;
+margin-top: 30px;
+margin-bottom:20px;
+margin-left:20px;
+margin-right:20px;
 
+padding-left:20px;
+padding-right:20px;
+padding-top:5px;
+padding-bottom:5px;
 }
 
 #wrapper{
 min-width:320px;
 max-width:900px;
-text-align:center;
-margin:auto;
+text-align: center;
+margin: auto;
 }
 
-img{
+#maphoto{
 border:3px solid;
 border-right:1px;
-border-color:black;
-color:black;
-float:right;
+border-color: black;
+float: right;
 box-shadow: 8px 8px 5px black;
+
 }
+
+#desc{
+text-align: left;
+color: #003A4F;
+display: inline-block;
+font-size: 19px;
+
+}
+
+header{
+
+text-align: left;
+float: center;
+font-family: kotta-one, serif;
+}
+
+
+h1{
+font-family: sofia, fantasy;
+font-size: 43px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #0060A1;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  padding: 20px;
+  width: 210px;
+  height: relative;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\000bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 2;
+  right: 0;
+}
+
+
 
 ol ul{
 /* Ajout du font pour les balises imbriquées dans <section> */
@@ -59,19 +132,24 @@ padding-bottom:10px;
 
 
 #ExpP{
-background-color:#6E96D5;
+background-color:  #CCD6E0;
+font-size: 25px;
 }
 
+
 #Formation{
-background-color:#D4DCE8;
+background-color: #BFD3E6;
+font-size: 25px;
 }
 
 #Langues{
-background-color: #6E96D5;
+background-color: #CCD6E0 ;
+font-size: 25px;
 }
 
-#loisirs{
-background-color: #D4DCE8;
+#Loisirs{
+background-color: #BFD3E6;
+font-size: 25px;
 }
 
 header h1{
@@ -80,8 +158,14 @@ text-align: center;
 color:#212930;
 }
 
+
+#Presentation{
+text-align : justify;
+color : #00626E;
+font-size: 20px;
+}
 header{
-background-color:#B3BCC0;
+background-color: #B1CBE5;
 text-align:left;
 border: 3px solid;
 
@@ -95,7 +179,6 @@ padding-right:20px;
 padding-top:5px;
 padding-bottom:5px;
 }
-
 
 section h1{
 text-align:center;
@@ -112,18 +195,23 @@ text-align:justify;
 
 
 footer{
-background-color:#A8ADB4;
-text-align:center;
-border: 3px solid;
+height : relative;
+background-color: #98CCC9;
 
-margin-top: 30px;
-margin-bottom:20px;
-margin-left:20px;
-margin-right:20px;
+}
 
-padding-left:20px;
-padding-right:20px;
-padding-top:5px;
-padding-bottom:5px;
+.fa {
+    padding: 40px;
+    font-size: 900px;
+     width: 300px ;
+ 
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
 }
 

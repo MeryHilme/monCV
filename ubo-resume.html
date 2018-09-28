@@ -12,11 +12,20 @@
     <link rel="stylesheet" href="css/resume.css" />
     <link rel="stylesheet" href="css/responsive.css" />
 
-<!--Feuille pour le font-Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/fontawesome.min.css" />
-<!--Ajout du JavaScript -->
-<script src="//use.edgefonts.net/actor;adamina.js"></script>
+<!-- Scripts javascript -->
+<script type="text/javascript" src="js/descr1.js"></script>
+<script type="text/javascript" src="js/descr2.js"></script>
 
+
+
+<!--Feuille pour le font-Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/fontawesome.min.css" >
+<script src="//use.edgefonts.net/kotta-one.js"></script>
+<script src="//use.edgefonts.net/actor;adamina.js"></script>
+<script src="//use.edgefonts.net/sofia.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!--[if lt IE 9]> 
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -28,31 +37,57 @@
 
    <header>
 
-   <h1>EL HILALI Meryem </h1>
-   <img src="logo.jpg" alt="Ma-Photo" width="150px" height="180px"></img>
+
+   <h1> <font color="#00A7D4" >EL HILALI Meryem </font></h1>
+<div id="maphoto">
+ <img src="logo.jpg" alt="Ma-Photo" width="200px" height="250px" class="responsive" align="center"></img>
+</div>
+<br/>
+
+<div id="desc">
    <p><b>Nationalité:</b> Marocaine.</p>
    <p><b>Néé le:</b> 10 Avril 1995.</p>
    <p><b>Téléphone:</b> 06 06 06 06 06. </p>
-   <p><b>Email:</b> elhilali.meryem95@gmail.com.
-<address title="Mon adresse"><b>Adresse:</b> Résidence Universitaire de Kergoat 2, rue des Archives.</address>
-<br/><br/>
+   <p><b>Email:</b> merysal@outlook.fr</p>
+<address title="Mon adresse"><b>Adresse:</b> Résidence Universitaire de Kergoat 2, rue des Archives. 29200, Brest-France.</address>
+     <br/><br/>
+</div>
 </header>
 
 <div id="moncv" >                 
    <section>
- <article>Je suis interéssée par le domaine du Big Data et le Business Intelligence...Actuellement je cherche une stage 
-de fin détudes afin de mettre en application tout ce que j'ai pu acquérir comme compétences théoriques et techniques. 
-Je souhaite ainsi m'améliorer en développant d'autres aspects pratiques.  </article>
-</div>
+<!--<input type="button" name="Details" class="lienAfficher" onclick="afficherMasquer('Présentation')" value="Description" />-->
+<button class="button" name="Details"  style="vertical-align:middle" onclick="afficherMasquer('Presentation')" value="Description"><span>Présentation</span></button>	
+
+ <article id="Presentation" class="Element">
 <br/>
+Je suis interéssée par le domaine du Big Data et le Business Intelligence...Actuellement je cherche une stage 
+de fin détudes afin de mettre en application tout ce que j'ai pu acquérir comme compétences théoriques et techniques. 
+Je souhaite ainsi m'améliorer en développant d'autres aspects pratiques.<br/>
+Passionnée d'informatique depuis mon plus jeune âge, j'aime énormément mon métier et
+prends un vif plaisir à exercer. Grâce à cela j'apprécie énormément transmettre mon savoir
+lors des formations du personnel, de plus, dotée d'excellentes qualités relationnelles,
+j'entretiens un bon contact avec l'équipe de travail. Réactive, disponible, chacun peut compter
+sur mes compétences et ma réactivité.
+<br/><br/>
+  </article>
+</div>
+
 <hr></hr>
 
 <!-- Expérience Professionnelle -->
-<div id="ExpP">
-<section>
-<br/>
-<h1><u>Expériences professionnelles</u></h1> 
 
+<div id="ExpP">
+
+<!--<input type="button" name="Details" class="lienAfficher" onclick="afficherMasquer('Experience')" value="Experience" /> -->
+
+<button class="button" name="Details"  style="vertical-align:middle" onclick="afficherMasquer('Experience')" value="Experience"><span>Mes Expériences</span></button>			
+<section id="Experience" class="Element">
+
+<br/>
+<!--<h1><u>Expériences professionnelles</u></h1> -->
+
+<!-- Changement des dl-dd-dt par les listes ul et ol -->
 <ul style="list-style-type:square">
   <h3>Technologies Web</h3>
  <li>HTML5</li>
@@ -60,6 +95,7 @@ Je souhaite ainsi m'améliorer en développant d'autres aspects pratiques.  </ar
 <li>JavaScript</li>
 
 </ul>
+
 
 <ul style="list-style-type:square">
 <h3>Big Data</h3>
@@ -69,48 +105,59 @@ Je souhaite ainsi m'améliorer en développant d'autres aspects pratiques.  </ar
 <li>Business Intelligence.</li>
 <li>Autres technologies...</li>
   </ul>
-
 </section>                    
 <br/>
 <hr></hr>
 </div>
 
-<div id="Formation">
-<section>
+<div>
+
+<!--<input type="button" name="Details" class="lienAfficher" onclick="afficherMasquer('Formation')" value="Formation" /> --> 			
+<button class="button" name="Details"  style="vertical-align:middle" onclick="afficherMasquer('Formation')" value="Formation"><span>Mes formations</span></button>
+
+
+<section id="Formation" class="Element">
 <br/>
-<h1><u>Formations</u></h1>
+<!--<h1><u>Formations</u></h1>-->
 <ol type="I">
 <li>Baccaluaréat en Sciences Expérimentales en Physique-Chimie.</li>
 <li>Première année en Génie Informatique à l'ESTC</li>
 <li>Deuxième année en Génie Informatique à l'ESTC</li>
 <li>Licence fondamentale en Sciences Mathématiques et Informatiques.</li>
-<li>Première année Master en BIg Data à la FS de Rabat.</li>
-<li>M2 DOSI à l'UBO.</li>  
+<li>Première année Master en BIg Data à la Faculté des Sciences de Rabat.</li>
+<li>M2 en développement lOgiciel des Systèmes d'Information à l'Université de Bretagne Occidentale.</li>  
  </ol> 
+<br/><br/>
 </section>
-<br/>
+
 <hr></hr>
-
 </div>
-
-
-<div id="Langues">
-<section>
+   
+     <div>
+<!--<input type="button" name="Details" class="lienAfficher" onclick="afficherMasquer('Langues')" value="Langues" /> -->
+<button class="button" name="Details"  style="vertical-align:middle" onclick="afficherMasquer('Langues')" value="Langues"><span>Mes langues</span></button>			
+			
+<section id="Langues" class="Element">
 <br/>
-<h1><u>Langues</u></h1>
+
+<!--<h1><u>Langues</u></h1>-->
 <ul style="list-style-type:square">
     <li>Anglais: Intermediate</li>
     <li>Français:C1 en TCF </li>
 </ul>
+<br/>
   </section>
- <br/>
 <hr></hr>
 </div>
 
-<div id="loisirs">
-<section>
+<div>
+<!--<input type="button" name="Details" class="lienAfficher" onclick="afficherMasquer('Loisirs')" value="Loisirs" />-->
+
+<button class="button" name="Details"  style="vertical-align:middle" onclick="afficherMasquer('Loisirs')" value="Loisirs"><span>Mes loisirs</span></button>	
+
+<section id="Loisirs" class="Element">
 <br/>
-<h1><u>Loisirs</u></h1>
+<!--<h1><u>Loisirs</u></h1>-->
  <ul style="list-style-type:circle">
     <li>Sport: Step, jogging...</li>
     <li>Cuisine.</li>
@@ -120,16 +167,28 @@ Je souhaite ainsi m'améliorer en développant d'autres aspects pratiques.  </ar
 <br/>
 </section>
 </div>
+
 <!-- <i class="icon-camera-retro"></i>-->
 </div> 
 <br/>
 <hr></hr>
 
-<footer>
-<a href="www.facebook.com">Mon lien Facebook</a><br/>
-<a href="https://github.com/MeryHilme/">Mon lien GitHub</a>
+  <footer>
+
+<!--Facebook-->
+<a href="http://www.facebook.com"  type="button" class="btn-floating btn-lg btn-fb"><i class="fa fa-facebook"></i></a>
+<!--Twitter-->
+<a  href="http://www.twitter.com"  type="button" class="btn-floating btn-lg btn-tw"><i class="fa fa-twitter"></i></a>
+<!--Google +-->
+<a href="http://www.google.com" type="button" class="btn-floating btn-lg btn-gplus"><i class="fa fa-google-plus"></i></a>
+<!--Linkedin-->
+<a href="http://www.linkedin.com"  type="button" class="btn-floating btn-lg btn-li"><i class="fa fa-linkedin"></i></a>
+<!--Github-->
+<a href="http://www.github.com"  type="button" class="btn-floating btn-lg btn-git"><i class="fa fa-github"></i></a>
 </footer>
 
-</div></div>
+
+</div>
+</div>
 </body>
 </html>
